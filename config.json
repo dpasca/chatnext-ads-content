@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-08-19T22:30:00.000Z",
+  "ads": [
+    {
+      "id": "oyk-final-freeway",
+      "title": "Final Freeway - Arcade Racing",
+      "description": "Experience the ultimate OutRun-inspired arcade racing! Beat the clock, dodge traffic, and race through scenic landscapes in this retro classic.",
+      "mediaType": "video",
+      "mediaUrl": "media/final-freeway-trailer.mp4",
+      "thumbnailUrl": "media/final-freeway-thumb.jpg",
+      "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy",
+      "creditsReward": 30,
+      "duration": 30,
+      "active": true,
+      "metadata": {
+        "gameId": "final-freeway",
+        "category": "racing",
+        "tags": ["racing", "arcade", "retro", "outrun", "classic"],
+        "storeLinks": {
+          "android": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy",
+          "ios": "https://apps.apple.com/us/app/final-freeway/id383026661"
+        }
+      }
+    },
+    {
+      "id": "oyk-final-freeway-2r",
+      "title": "Final Freeway 2R",
+      "description": "The sequel to the acclaimed arcade racer! Pick your character and choose your path as you speed through exciting new stages with enhanced graphics.",
+      "mediaType": "video",
+      "mediaUrl": "media/final-freeway-2r-trailer.mov",
+      "thumbnailUrl": "media/final-freeway-2r-thumb.jpg",
+      "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy2r",
+      "creditsReward": 25,
+      "duration": 45,
+      "active": true,
+      "metadata": {
+        "gameId": "final-freeway-2r",
+        "category": "racing",
+        "tags": ["racing", "arcade", "sequel", "characters", "multiple-paths"],
+        "storeLinks": {
+          "android": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy2r",
+          "ios": "https://apps.apple.com/us/app/final-freeway-2r/id495500517"
+        }
+      }
+    },
+    {
+      "id": "oyk-fractal-combat-x",
+      "title": "Fractal Combat X (FCX)",
+      "description": "Action-packed 3D flight combat with top notch graphics and VR support! Experience progressively intense gameplay with epic soundtracks and dozens of missions.",
+      "mediaType": "video",
+      "mediaUrl": "media/fractal-combat-x-trailer.mp4",
+      "thumbnailUrl": "media/fractal-combat-x-thumb.jpg",
+      "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.fractalcombatxpremium",
+      "creditsReward": 35,
+      "duration": 60,
+      "active": true,
+      "metadata": {
+        "gameId": "fractal-combat-x",
+        "category": "action",
+        "tags": ["flight", "combat", "3d", "vr", "action", "missions"],
+        "storeLinks": {
+          "android": "https://play.google.com/store/apps/details?id=com.oyatsukai.fractalcombatxpremium",
+          "ios": "https://apps.apple.com/us/app/fractal-combat-x-fcx/id578085611"
+        }
+      }
+    }
+  ]
+}
