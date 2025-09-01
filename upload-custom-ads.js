@@ -33,7 +33,7 @@ import { S3Client, PutObjectCommand, ListObjectsV2Command } from '@aws-sdk/clien
 import { config } from 'dotenv';
 
 // Load environment variables from .env files
-const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.env.development';
+const envFile = process.env.NODE_ENV === 'production' ? '../../.env.server.production' : '../../.env.server.development';
 config({ path: envFile });
 
 // Parse command line arguments
