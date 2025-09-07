@@ -1,10 +1,10 @@
-# Custom Ads Configuration for OykGames
+# Custom Ads Configuration for OYK Games
 
 This directory contains the configuration and media files for your custom reward ads system.
 
 ## Current Setup
 
-This example configuration promotes three games from your OykGames portfolio:
+This example configuration promotes three games from your OYK Games portfolio:
 
 1. **Adventure Quest** (30 credits) - Epic RPG with video trailer
 2. **Space Shooter Pro** (20 credits) - Action shooter with screenshot
