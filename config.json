@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-08-19T22:30:00.000Z",
+  "lastUpdated": "2025-10-20T00:00:00.000Z",
   "ads": [
     {
       "id": "oyk-final-freeway",
@@ -10,7 +10,7 @@
       "mediaUrl": "media/final-freeway-trailer.mp4",
       "thumbnailUrl": "media/final-freeway-thumb.jpg",
       "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy",
-      "creditsReward": 7,
+      "creditsReward": 70,
       "duration": 30,
       "active": true,
       "metadata": {
@@ -31,7 +31,7 @@
       "mediaUrl": "media/final-freeway-2r-trailer.mov",
       "thumbnailUrl": "media/final-freeway-2r-thumb.jpg",
       "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.finalfwy2r",
-      "creditsReward": 7,
+      "creditsReward": 70,
       "duration": 30,
       "active": true,
       "metadata": {
@@ -52,7 +52,7 @@
       "mediaUrl": "media/fractal-combat-x-trailer.mp4",
       "thumbnailUrl": "media/fractal-combat-x-thumb.jpg",
       "clickUrl": "https://play.google.com/store/apps/details?id=com.oyatsukai.fractalcombatxpremium",
-      "creditsReward": 7,
+      "creditsReward": 70,
       "duration": 20,
       "active": true,
       "metadata": {

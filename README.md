@@ -6,9 +6,9 @@ This directory contains the configuration and media files for your custom reward
 
 This example configuration promotes three games from your OYK Games portfolio:
 
-1. **Adventure Quest** (30 credits) - Epic RPG with video trailer
-2. **Space Shooter Pro** (20 credits) - Action shooter with screenshot
-3. **Puzzle Master** (25 credits) - Brain puzzle game with demo video
+1. **Adventure Quest** (300 credits) - Epic RPG with video trailer
+2. **Space Shooter Pro** (200 credits) - Action shooter with screenshot
+3. **Puzzle Master** (250 credits) - Brain puzzle game with demo video
 
 ## What You Need To Add
 
