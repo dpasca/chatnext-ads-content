@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-10-20T00:00:00.000Z",
+  "lastUpdated": "2026-04-23T00:00:00.000Z",
   "ads": [
     {
       "id": "oyk-final-freeway",
@@ -62,6 +62,27 @@
         "storeLinks": {
           "android": "https://play.google.com/store/apps/details?id=com.oyatsukai.fractalcombatxpremium",
           "ios": "https://apps.apple.com/us/app/fractal-combat-x-fcx/id578085611"
+        }
+      }
+    },
+    {
+      "id": "oyk-fractal-strike",
+      "title": "Fractal Strike",
+      "description": "Portrait mech shooter built for fast arcade combat, multi-phase boss fights, and one-handed play. Pilot the FS-7 through blackout corridors and relay bastions.",
+      "mediaType": "video",
+      "mediaUrl": "media/fractal-strike-trailer.mp4",
+      "thumbnailUrl": "media/fractal-strike-thumb.png",
+      "clickUrl": "https://play.google.com/store/apps/details?id=com.newtypekk.fractalstrike",
+      "creditsReward": 70,
+      "duration": 29,
+      "active": true,
+      "metadata": {
+        "gameId": "fractal-strike",
+        "category": "action",
+        "tags": ["mech", "shooter", "portrait", "arcade", "boss-fights", "sci-fi"],
+        "storeLinks": {
+          "android": "https://play.google.com/store/apps/details?id=com.newtypekk.fractalstrike",
+          "ios": "https://apps.apple.com/us/app/fractal-strike/id6757950693"
         }
       }
     }

@@ -4,39 +4,38 @@ This directory contains the configuration and media files for your custom reward
 
 ## Current Setup
 
-This example configuration promotes three games from your OYK Games portfolio:
+The current configuration promotes these OYK Games titles:
 
-1. **Adventure Quest** (300 credits) - Epic RPG with video trailer
-2. **Space Shooter Pro** (200 credits) - Action shooter with screenshot
-3. **Puzzle Master** (250 credits) - Brain puzzle game with demo video
+1. **Final Freeway**
+2. **Final Freeway 2R**
+3. **Fractal Combat X (FCX)**
+4. **Fractal Strike**
 
-## What You Need To Add
+Each ad entry in `config.json` points at media stored in `media/` plus the
+destination URLs to open after the user watches the content.
 
-### 1. Media Files
-Add these files to the `media/` directory:
+## Adding Or Updating An Ad
 
-**Videos** (for trailers/gameplay):
-- `adventure-quest-trailer.mp4` - Game trailer (recommended: 30-60 seconds, <50MB)
-- `puzzle-master-demo.mp4` - Puzzle gameplay demo (recommended: 20-30 seconds, <50MB)
+### 1. Prepare media files
+Add the trailer/gameplay clip and thumbnail to `media/`.
 
-**Images** (for screenshots/thumbnails):
-- `adventure-quest-thumb.jpg` - Thumbnail for video trailer (recommended: 400x300px, <2MB)
-- `space-shooter-screenshot.jpg` - Game screenshot (recommended: 800x600px, <5MB)
-- `puzzle-master-thumb.jpg` - Thumbnail for video demo (recommended: 400x300px, <2MB)
+Tip: when sourcing a trailer from PublishKit or another large master asset,
+create a lighter ad-specific encode first so the reward flow stays fast on
+mobile connections.
 
-### 2. Update URLs
-In `config.json`, update the `clickUrl` fields to point to your actual game pages:
-- Replace `https://oykgames.com/adventure-quest` with real URLs
-- Replace `https://oykgames.com/space-shooter` with real URLs
-- Replace `https://oykgames.com/puzzle-master` with real URLs
+### 2. Add the ad entry to `config.json`
+For each ad, set:
+- `id` - Stable unique id, usually `oyk-<game-name>`
+- `title` and `description` - User-facing copy shown in the modal
+- `mediaType`, `mediaUrl`, `thumbnailUrl` - Local asset paths relative to this directory
+- `clickUrl` - Primary destination URL
+- `creditsReward` and `duration` - Reward amount and media length
+- `metadata.storeLinks` - Optional per-store URLs for iOS and Android buttons
 
-### 3. Customize Content
-Feel free to modify:
-- **titles** - Make them catchy and appealing
-- **descriptions** - Highlight what makes each game fun
-- **creditsReward** - Adjust based on your credit economy
-- **duration** - Set actual video lengths
-- **metadata** - Add relevant tags and categories
+### 3. Keep store links accurate
+Prefer official store URLs when a game is live. If only one platform is live,
+set the live store URL as `clickUrl` and leave the unavailable store link out of
+`metadata.storeLinks`.
 
 ## Media Specifications
 
